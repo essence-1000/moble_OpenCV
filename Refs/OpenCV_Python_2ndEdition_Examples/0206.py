@@ -3,6 +3,7 @@ import cv2
 from   matplotlib import pyplot as plt
 
 path = './data/'
+
 imgBGR1 = cv2.imread(path+'lena.jpg')
 imgBGR2 = cv2.imread(path+'apple.jpg')
 imgBGR3 = cv2.imread(path+'baboon.jpg')
